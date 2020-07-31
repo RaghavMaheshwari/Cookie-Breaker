@@ -1,4 +1,4 @@
-**[Cookie Breaker]{.underline}**
+**Cookie Breaker**
 
 A python script to extract and analyze response\'s cookies.
 
@@ -9,18 +9,12 @@ A python script to extract and analyze response\'s cookies.
     the catch flop by forestalling the poisonous (generally XSS) code
     from sending the data to an assailant\'s site.
 
-![](.//media/image1.png){width="6.692361111111111in"
-height="3.7618055555555556in"}
-
 -   Missing Secure Flag on Session Cookies - The ensured standard is an
     elective that can be set by the application server when sending
     another Cookie to the customer inside a HTTP Response. The
     explanation behind the shielded banner is to shield Cookies from
     being seen by unapproved parties due to the transmission of a the
     Cookie in clear substance.
-
-![](.//media/image2.png){width="6.692361111111111in"
-height="3.7618055555555556in"}
 
 -   Domain of Session Cookie isn\'t set fittingly - The \'locale\'
     trademark infers the space for which the Cookie is valid and can be
@@ -37,15 +31,16 @@ height="3.7618055555555556in"}
     path=/for the application report.com/r1 or report.com/r2, by then
     this cookie will be authentic for all application ways, from the
     root stock downwards on the web server.
+    
+   
+![](.//media/image1.png)
+
+![](.//media/image2.png)
 
 References:
-
 LucideusTech,
-
 Python Programming,
-
 PortSwigger,
-
 Request-Response
 
 Thank You.
